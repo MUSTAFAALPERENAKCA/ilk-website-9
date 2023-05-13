@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-header {
+  background-color: #ff8c32;
+  padding: 8px 16px;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 99px);
+  text-align: right;
+}
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.main-header__logo {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.main-nav__item a:hover,
+.main-nav__item:hover::before {
+  color: #06113c;
+}
+
+.main-nav__item:active::before,
+.main-nav__item a:active {
+  color: #eeeeee;
+}
+
+.main-nav__item::before {
+  content: "\2022";
+  color: #eeeeee;
+}
+
+.main-nav__item--login a {
+  color: #eeeeee;
+  background-color: #06113c;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: 2px solid #eeeeee;
+}
+
+.main-nav__item--login a:hover {
+  color: #06113c;
+  border: 2px solid #06113c;
+  background-color: #eeeeee;
+}
+
+.main-nav__item--login::before {
+  content: none;
+}
+
+#what-is-fb {
+  background-color: #eeeeee;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.fb-tarih {
+  padding: 10px;
+  margin: 100px, 200px;
+  background-color: #dddddd;
+  border-radius: 8px;
+}
+.row {
+  margin-bottom: 40px;
+}
+
+.col {
+  display: inline-block;
+  width: 30%;
+  padding: 16px;
+  margin: 8px;
+  color: #002d72;
+}
+#arma {
+  background-color: #eeeeee;
+  border: #eeeeee;
+}
+.col img {
+  width: 300px;
+  background-color: #ffed00;
+  border-radius: 12px;
+  border: 4px solid #002d72;
+}
+
+.col-1 {
+  display: inline-block;
+  width: 40%;
+  padding: 16px;
+  margin: 0;
+}
+
+.icon-box h3 {
+  color: #06113c;
+  font-size: 26px;
+}
+.icon-box i {
+  color: #ff8c32;
+}
+.main-footer {
+  background-color: #06113c;
+  display: flex;
+  color: #eeeeee;
+}
+.footer-nav {
+  display: inline-block;
+  width: calc(100% - 250px);
+  text-align: right;
+}
+.footer-nav-items {
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav-item {
+  display: inline-block;
+  margin: 20 10px;
+}
+
+.main-footer-logo {
+  margin: 20px;
+  padding: 0;
+}
+
+.footer-nav-item a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.footer-nav-item a:hover,
+.footer-nav-item:hover::before {
+  color: #ff8c32;
+}
+
+.footer-nav-item:active::before,
+.footer-nav-item a:active {
+  color: #eeeeee;
+}
+
+.footer-nav-item::before {
+  content: "\2022";
+  color: #eeeeee;
+}
+
+.miras-nav-items {
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+}
+.miras-nav {
+  display: inline-block;
+}
+.miras-nav-item a {
+  text-decoration: none;
+  color: #ff8c32;
+}
+.miras-nav-item a:hover,
+.miras-nav-item:hover::before {
+  color: #06113c;
+}
+
+.miras-nav-item:active::before,
+.miras-nav-item a:active {
+  color: #dddddd;
+}
+
+.miras-nav-item::before {
+  content: "\2022";
+  color: #dddddd;
+}
+.what-is-mersin {
+  padding: 20px;
+
+  background-color: #eeeeee;
+}
+.showcase-miras {
+  padding: 50px;
+  background-color: #eeeeee;
+}
+
+#miras-background {
+  background: url("background.webp");
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  padding: 10px;
+}
+#showcase {
+  background: url("mersin.jpeg");
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  padding: 10px;
+}
+#showcase-2 {
+  background: url("mersin2.png");
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  padding: 10px;
+}
+.col47 {
+  display: inline-block;
+  width: 47%;
+  padding: 16px;
+  margin: 8px;
+  color: #002d72;
+}
+
+#who-am-ı {
+  padding: 10px;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+#who-am-ı h2 {
+  color: #3e4555;
+  font-size: 30px;
+  font-weight: 600;
+}
